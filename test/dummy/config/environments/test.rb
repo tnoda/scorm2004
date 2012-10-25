@@ -34,4 +34,7 @@ Dummy::Application.configure do
 
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
+
+  # Configure the SCORM 2004 package root directory
+  config.scorm2004.package_root = File.expand_path('scorm_packages', Rails.root)
 end
