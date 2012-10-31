@@ -21,4 +21,6 @@ Gem::Specification.new do |s|
   s.add_dependency "scorm2004-manifest", "~> 1.2.0"
 
   s.add_development_dependency "sqlite3"
+  s.add_development_dependency 'spork-rails'
+  s.add_development_dependency 'spork-testunit'
 end
