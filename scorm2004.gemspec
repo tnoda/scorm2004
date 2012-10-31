@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 3.2.8"
   # s.add_dependency "jquery-rails"
+  s.add_dependency "scorm2004-manifest", "~> 1.2.0"
 
   s.add_development_dependency "sqlite3"
 end
