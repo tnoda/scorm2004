@@ -19,6 +19,9 @@ Spork.prefork do
   if ActiveSupport::TestCase.method_defined?(:fixture_path=)
     ActiveSupport::TestCase.fixture_path = File.expand_path("../fixtures", __FILE__)
   end
+
+  require 'shoulda-matchers'
+  require 'shoulda-context'
 end
 
 Spork.each_run do
