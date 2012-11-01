@@ -86,6 +86,9 @@ GEM
     scorm2004-manifest (1.2.0)
       activesupport
       nokogiri
+    shoulda-context (1.0.1)
+    shoulda-matchers (1.4.1)
+      activesupport (>= 3.0.0)
     spork (1.0.0rc3)
     spork-rails (3.2.0)
       rails (>= 3.0.0, < 3.3.0)
@@ -111,6 +114,8 @@ DEPENDENCIES
   factory_girl_rails
   jquery-rails
   scorm2004!
+  shoulda-context
+  shoulda-matchers
   spork-rails
   spork-testunit
   sqlite3
