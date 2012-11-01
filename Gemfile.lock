@@ -89,6 +89,9 @@ GEM
     scorm2004-manifest (1.2.0)
       activesupport
       nokogiri
+    shoulda (3.3.2)
+      shoulda-context (~> 1.0.1)
+      shoulda-matchers (~> 1.4.1)
     shoulda-context (1.0.1)
     shoulda-matchers (1.4.1)
       activesupport (>= 3.0.0)
@@ -118,8 +121,7 @@ DEPENDENCIES
   jquery-rails
   mocha
   scorm2004!
-  shoulda-context
-  shoulda-matchers
+  shoulda
   spork-rails
   spork-testunit
   sqlite3
